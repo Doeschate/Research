@@ -10,7 +10,8 @@ The folder contains **Saved_models** where all the pretrained models and error f
 
 For visualizing the results set both model_training and model_inference to False 
 
-model_training = False #True --> to train a new model else False
+model_training = False #True --> to train a new model else False 
+
 model_inference = False #True --> to generate error files(error vs epoch plots) else false
 
 
@@ -20,7 +21,7 @@ DLGN_95_white_patch="DLGN_95_white_patch_no_extra_data_lr_.0001_epoch_1k_seed_36
 DLGN_xx/ReLU_xx -> based on DLGN or DNN with ReLU model 
 95_white_patch_no_extra_data -> it means 95% of the dataset is made corrupted by putting 4x4 white patch based on the classes and no extra data is used to replace the corrupted data. 
 lr_.0001 -> learning rate 0.0001 
-epoch = 1l and seed = 365
+epoch = 1k and seed = 365
 
 
 ## How to Run
